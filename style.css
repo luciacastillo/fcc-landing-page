@@ -3,22 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
 
 html {
-    font-size: 15px;
-    font-family: "Mulish", Arial, sans-serif;
+  font-size: 15px;
+  font-family: "Mulish", Arial, sans-serif;
 }
 * {
-    margin: 0;
+  margin: 0;
 }
 #div-container1 {
-    box-sizing: border-box;
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    background-color: #ffffff;
-    margin: 0px auto;
-    padding: 0px;
-    height: auto;
+  box-sizing: border-box;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background-color: #ffffff;
+  margin: 0px auto;
+  padding: 0px;
+  height: auto;
 }
 #div-logo {
     box-sizing: border-box;
@@ -66,7 +66,7 @@ html {
 #div-presentacion {
     margin: 40px 60px;
     background-color: #ffffff;
-  }
+}
 .presentacion {
     color: #22298d;
     font-family: "Overpass", Helvetica, sans-serif;
@@ -133,8 +133,7 @@ ul, ol {
     background-color: #f3f3f3;
     padding-bottom: 1rem;
     margin-bottom: 3rem;
-  }
-
+}
 #video-frame {
     text-align: center;
     margin: 20px auto; 
@@ -153,7 +152,7 @@ iframe {
       width: 100%;
       justify-content: center;
       align-items: stretch;
-  }
+}
 #div-precios-1 {
       width: 30%;    
       text-align: center;
@@ -202,9 +201,7 @@ footer {
       margin-top: 2rem;
 }
   
-@media only screen and (max-width: 700px) {
-  
-  
+@media only screen and (max-width: 700px) {  
   #div-container1 {
         width: 90%;
         display: flex;
@@ -214,64 +211,60 @@ footer {
     margin: auto;
     padding: 0;
         background-color: #ffffff;
-      }
-    
-      #div-logo {
+}
+#div-logo {
         box-sizing: border-box;
         width: 90%;
         margin: auto;
         text-align: center;
-      }    
-      #header-img {
+}    
+#header-img {
         width: 100%;
         margin: auto;
-      }    
-     
-      #div-navegacion {
+}    
+#div-navegacion {
         box-sizing: border-box;
         width: 90%;
         margin: auto;
         text-align: center;
-      }
-      
-      #div-main {
+}
+#div-main {
           box-sizing: border-box;
         width: 90%;
         margin-left: auto;
         margin-right: auto;
         padding-top: 170px; 
-      }
-      #div-image {
+}
+#div-image {
         box-sizing: border-box;
         width: 90%;
         margin: auto;
         text-align: center;
-      }
-  
-      #img-principal {
-    width: 100%;
-    text-align: center;
-  }
-      #email, #submit {
-        margin: 1rem 0;
-      }
-  #div-container2 {
-          box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
- }
-  #video-frame {
-    text-align: center;
-    margin: 20px auto; 
+}
+#img-principal {
+  width: 100%;
+  text-align: center;
+}
+#email, #submit {
+  margin: 1rem 0;
+}
+#div-container2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+#video-frame {
+  text-align: center;
+  margin: 20px auto; 
   width: 90%;
 }
 iframe {
-    text-align: center;
+  text-align: center;
   max-width: 100%;
 }
  #div-precios-1, #div-precios-2, #div-precios-3 {
       box-sizing: border-box;
      width: 100%;  
      margin: 1rem 0;   
- }
- }
+}
+}

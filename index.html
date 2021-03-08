@@ -1,105 +1,92 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<title>FCC Project: Landing Page</title>
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-
+<head>
+  <title>FCC Project: Landing Page</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 <body>
-
-
-<header id="header">
-<div id="div-container1">    
-      
-        <div id="div-logo">
-        <img  alt="Logo MusicON!" src="https://i.imgur.com/He75ERC.png" id="header-img">
-        </div>
-        
-        <div id="div-navegacion">
+  <header id="header">
+    <div id="div-container1">
+      <div id="div-logo">
+        <img alt="Logo MusicON!" src="images/He75ERC.png" id="header-img">
+      </div>
+      <div id="div-navegacion">
         <nav id="nav-bar">
-        <a class="nav-link" href="#caracteristicas">Características</a> |
-        <a class="nav-link" href="#como-funciona">Cómo funciona</a> |
-        <a class="nav-link" href="#precios">Precios</a> 
-        </nav> 
-        </div>
-    
-</div>
-</header>
-    
-<div id="div-main">
-      
-      <div id="div-image">
-        <img id="img-principal" src="https://i.imgur.com/lGPnFul.jpg">
+          <a class="nav-link" href="#caracteristicas">Características</a> |
+          <a class="nav-link" href="#como-funciona">Cómo funciona</a> |
+          <a class="nav-link" href="#precios">Precios</a>
+        </nav>
       </div>
-    
-      <div id="div-presentacion">
-        <p class="presentacion">Llegaste a MusicON!, tu nueva plataforma de música online.</p> 
-        <p class="presentacion">Para que siempre te acompañen tus artistas favoritos, adonde sea que vayas. ¡Probalo!</p>
-      </div>
-      
-      <div id="div-form">
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
+    </div>
+  </header>
+  <div id="div-main">
+    <div id="div-image">
+      <img id="img-principal" src="images/lGPnFul.jpg">
+    </div>
+    <div id="div-presentacion">
+      <p class="presentacion">Llegaste a MusicON!, tu nueva plataforma de música online.</p>
+      <p class="presentacion">Para que siempre te acompañen tus artistas favoritos, adonde sea que vayas. ¡Probalo!</p>
+    </div>
+    <div id="div-form">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
         <p class="formulario"><label for="email">¿Querés recibir más información?</label></p>
         <input name="email" type="email" id="email" placeholder="Ingresá aquí tu email">
-        <input id="submit" type="submit" value="Enviar"></form>
-      </div>
-    
-    
-      <div id="div-caracteristicas">
-      
+        <input id="submit" type="submit" value="Enviar">
+      </form>
+    </div>
+    <div id="div-caracteristicas">
       <a id="caracteristicas">
-      <h2>Características</h2>
-      </a>  
-        <ul>
-          <li>Llevá tu música adonde vayas, sin conexión</li>
-          <li>Descargá música y videos</li>
-          <li>Armá tus propias playlists para cada momento de tu vida</li>
-          <li>Compartí lo que escuchás con tus amigxs</li>
-          <li>Accedé desde cualquier dispositivo</li>
-        </ul>
-      
-        <div id="video-frame">
-        <iframe id="video" src="https://www.youtube.com/embed/qcZ7e9EOQTY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2>Características</h2>
+      </a>
+      <ul>
+        <li>Llevá tu música adonde vayas, sin conexión</li>
+        <li>Descargá música y videos</li>
+        <li>Armá tus propias playlists para cada momento de tu vida</li>
+        <li>Compartí lo que escuchás con tus amigxs</li>
+        <li>Accedé desde cualquier dispositivo</li>
+      </ul>
+      <div id="video-frame">
+        <iframe id="video" src="https://www.youtube.com/embed/qcZ7e9EOQTY" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-
+    </div>
+    <div id="div-como-funciona">
+      <a id="como-funciona">
+        <h2>Cómo funciona</h2>
+      </a>
+      <ol>
+        <li>Elegí tu plan de pago</li>
+        <li>Confirmá tu email</li>
+        <li>Descargá la app</li>
+      </ol>
+      <p id="funcionamiento">¡Así de simple! ¡A disfrutar de la música!</p>
+    </div>
+    <div id="div-precios">
+      <a id="precios">
+        <h2>Precios</h2>
+      </a>
+    </div>
+    <div id="div-container2">
+      <div class="precios" id="div-precios-1">
+        <p class="nombre-plan">Plan Básico</p>
+        <p class="precio-plan">$299 por mes</p>
+        <p class="descripcion-plan">Tu cuenta personal con música ilimitada. Descargá hasta 50 videos.</p>
       </div>
-      
-      <div id="div-como-funciona">
-      <a id="como-funciona"><h2>Cómo funciona</h2></a>
-        <ol>
-          <li>Elegí tu plan de pago</li>
-          <li>Confirmá tu email</li> 
-          <li>Descargá la app</li>
-        </ol> 
-        <p id="funcionamiento">¡Así de simple! ¡A disfrutar de la música!</p>
+      <div class="precios" id="div-precios-2">
+        <p class="nombre-plan">Plan Premium</p>
+        <p class="precio-plan">$499 por mes</p>
+        <p class="descripcion-plan">Tu cuenta personal con música y videos ilimitados.</p>
       </div>
-      
-      <div id="div-precios">
-      <a id="precios"><h2>Precios</h2></a>
+      <div class="precios" id="div-precios-3">
+        <p class="nombre-plan">Plan Familiar</p>
+        <p class="precio-plan">$799 por mes</p>
+        <p class="descripcion-plan">Cuatro cuentas con música ilimitada para tu grupo familiar.</p>
       </div>
-    
-      <div id="div-container2">
-          <div class="precios" id="div-precios-1">
-          <p class="nombre-plan">Plan Básico</p>
-          <p class="precio-plan">$299 por mes</p>
-          <p class="descripcion-plan">Tu cuenta personal con música ilimitada. Descargá hasta 50 videos.</p>
-          </div>
-          <div class="precios" id="div-precios-2">
-            <p class="nombre-plan">Plan Premium</p>
-            <p class="precio-plan">$499 por mes</p>
-            <p class="descripcion-plan">Tu cuenta personal con música y videos ilimitados.</p>
-          </div>
-          <div class="precios" id="div-precios-3">
-            <p class="nombre-plan">Plan Familiar</p>
-            <p class="precio-plan">$799 por mes</p>
-            <p class="descripcion-plan">Cuatro cuentas con música ilimitada para tu grupo familiar.</p>
-          </div>
-        </div>
-    
-      </div>
-        <footer>
-          <p>FCC Landing Page. 2020.</p>
-        </footer>
+    </div>
+  </div>
+  <footer>
+    <p>FCC Landing Page. 2020.</p>
+  </footer>
 </body>
 </html>
